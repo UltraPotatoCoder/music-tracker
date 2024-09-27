@@ -1,4 +1,3 @@
-import React from "react";
 import { Link } from "react-router-dom";
 
 function Navbar() {
@@ -6,16 +5,16 @@ function Navbar() {
     <nav>
       <ul>
         <li>
-          <Link>Home</Link>
+          <Link to="/">Home</Link>
         </li>
         <li>
-          <Link>All Songs</Link>
+          <Link to="/songs">All Songs</Link>
         </li>
         <li>
-          <Link>All Albums</Link>
+          <Link to="/albums">All Albums</Link>
         </li>
         <li>
-          <Link>Add Music</Link>
+          <Link to="/submit">Add Music</Link>
         </li>
       </ul>
     </nav>
